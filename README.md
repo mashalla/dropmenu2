@@ -1,12 +1,14 @@
-MooDropMenu
+Accessible MooDropMenu
 ===========
+
+Based on MooDropMenu this widget provides all features of the original component and enhances the 
+functionality by adding support for accessibility. It can be controlled by keyboards and supports
+screen readers.
 
 This is a simple yet powerful drop menu class. You can create an unlimited nested menu,
 build by the HTML tags ul and li. You can define your functions to open and close the menus
 with the onOpen and onClose Events. This gives you great power in customizing your drop
 down menu. You can customize the menu even more by CSS.
-
-![Screenshot](http://github.com/arian/MooDropMenu/raw/master/screenshot.png)
 
 How to use
 ----------
