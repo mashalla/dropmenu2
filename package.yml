@@ -1,5 +1,7 @@
 name: MooDropMenu
-author: [astolwijk, duschear]
+author: 
+  - "astolwijk"
+  - "duschear"
 category: Interface
 tags: [menu, dropmenu,navigation]
 demo: http://www.aryweb.nl/projects/MooDropMenu
