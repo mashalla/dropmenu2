@@ -1,10 +1,8 @@
-name: MooDropMenu2
+name: Accessible MooDropMenu
 author: mashalla
 category: Widgets
-tags: [menu, dropmenu,navigation]
-demo: http://www.aryweb.nl/projects/MooDropMenu
-docs: http://github.com/arian/MooDropMenu/blob/master/README.md
-current: 1.7.1
+tags: [menu, dropmenu, navigation, accessible]
+current: 1.0
 
 sources:
   - "Source/MooDropMenu.js"
