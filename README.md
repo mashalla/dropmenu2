@@ -20,6 +20,7 @@ Just include MooDropMenu.js or MooDropMenu-min.js and the MooDropMenu.css to you
 And the menu structure
 
 #HTML
+<div id="nav_wrapper">
 	<ul id="nav">
 		<li><div><span>Info</span></div>
 			<ul>
@@ -61,6 +62,7 @@ And the menu structure
 			</ul>
 		</li>
 	</ul>
+</div>
 
 And then initialize the menu
 
