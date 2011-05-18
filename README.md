@@ -21,48 +21,48 @@ And the menu structure
 
 	#HTML
 <div id="nav_wrapper">
-                    <ul id="nav">
-                    	<li><div><span>Info</span></div>
-                    		<ul>
-                    			<li><div><span>Test</span></div>
-                    				<ul>
-                    					<li><div><span>Problem 1</span></div></li>
-                    					<li><div><span>Problem 2</span></div></li>
-                    					<li><div><span>Problem 3</span></div></li>
-                    				</ul>
-                    			</li>
-                    		</ul>
-                    	</li>
-                        <li>
-                            <div><span>Projects</span></div>
-                            <ul>
-                                <li>
-                                    <div><span>Websites</span></div>
-                                    <ul>
-                                        <li>
-                                            <div><span>Website 1</span></div>
-                                        </li>
-                                        <li>
-                                            <div><span>Website 2</span></div>
-                                        </li>
-                                        <li>
-                                            <div><span>Website 3</span></div>
-                                        </li>
-                                        <li>
-                                            <div><span>Website 4</span></div>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <div><span>Website design</span></div>
-                                </li>
-                                <li>
-                                    <div><span>Javascript</span></div>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
+	<ul id="nav">
+		<li><div><span>Info</span></div>
+			<ul>
+				<li><div><span>Test</span></div>
+					<ul>
+						<li><div><span>Problem 1</span></div></li>
+						<li><div><span>Problem 2</span></div></li>
+						<li><div><span>Problem 3</span></div></li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+		<li>
+			<div><span>Projects</span></div>
+			<ul>
+				<li>
+					<div><span>Websites</span></div>
+					<ul>
+						<li>
+							<div><span>Website 1</span></div>
+						</li>
+						<li>
+							<div><span>Website 2</span></div>
+						</li>
+						<li>
+							<div><span>Website 3</span></div>
+						</li>
+						<li>
+							<div><span>Website 4</span></div>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<div><span>Website design</span></div>
+				</li>
+				<li>
+					<div><span>Javascript</span></div>
+				</li>
+			</ul>
+		</li>
+	</ul>
+</div>
 
 
 And then initialize the menu
