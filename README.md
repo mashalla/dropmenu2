@@ -62,8 +62,6 @@ And the menu structure
 			</ul>
 		</li>
 	</ul>
-</div>
-
 
 And then initialize the menu
 
