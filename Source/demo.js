@@ -1,3 +1,15 @@
+/*
+---
+description: demo application
+
+license: MIT-style
+
+authors:
+- Alexander Duschek
+
+...
+	
+ */
 window.addEvent('domready',function(){
 
     var dropMenu = new MooDropMenu($('nav'),{
