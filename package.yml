@@ -2,8 +2,8 @@ name: Accessible MooDropMenu
 author: mashalla
 category: Widgets
 tags: [menu, dropmenu, navigation, accessible]
-docs: http://mashalla.github.com/dropmenu/
-#demo: http://no-demo.de
+#docs: http://no-docs.de
+demo: http://mashalla.github.com/dropmenu2
 current: 1.0
 
 sources:

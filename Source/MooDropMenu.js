@@ -342,7 +342,7 @@ var MooDropMenu = new Class(
 							// submenu, it doesn't work without it
 							window.setTimeout(function() {
 								this.focChild();
-							}.bind(this), 30);
+							}.bind(this), 100);
 
 						}
 					}
