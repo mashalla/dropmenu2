@@ -7,5 +7,6 @@ demo: http://mashalla.github.com/dropmenu2
 current: 1.0
 
 sources:
-  - "source/MooDropMenu.js"
+  - "Source/MooDropMenu.js"
+  - "Source/demo.js"
 
