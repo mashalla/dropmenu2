@@ -7,6 +7,9 @@ and supports common screen reading software.
 	
 Widget based on <a href="http://mootools.net/forge/p/moodropmenu" title="MooDropMenu on Mootools Forge">MooDropMenu</a> by Arian Stolwijk! 
 
+![Screenshot](http://www.accessiblemootoolsdemo.iao.fraunhofer.de/Mootools_Widgets/img/DropMenu.png)
+
+
 
 How to use
 ----------
