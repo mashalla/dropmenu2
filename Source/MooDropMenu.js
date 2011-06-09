@@ -15,11 +15,12 @@ requires:
 
 provides: [MooDropMenu, Element.MooDropMenu]
 
+version: 1.0
+
 accessibility enhancements: WAI ARIA specification (http://www.w3.org/TR/wai-aria-practices/#menu) is implemented, DropDown can be controlled completely by the keyboard.
 
 ...
-	
- */
+*/
 
 var MooDropMenu = new Class(
 		{
