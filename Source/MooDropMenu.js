@@ -15,12 +15,11 @@ requires:
 
 provides: [MooDropMenu, Element.MooDropMenu]
 
-version: 1.0
-
 accessibility enhancements: WAI ARIA specification (http://www.w3.org/TR/wai-aria-practices/#menu) is implemented, DropDown can be controlled completely by the keyboard.
 
 ...
-*/
+	
+ */
 
 var MooDropMenu = new Class(
 		{
@@ -136,7 +135,7 @@ var MooDropMenu = new Class(
 									// set aria states
 									parent.getChildren()[0].setProperty(
 											'aria-haspopup', 'true');
-									el.setProperty('role', 'menu');
+									el.setProperty('role', 'menubar');
 									el.setProperty('aria-activedescendant',
 											'activeItem');
 									/* ##### modification end ##### */
@@ -250,6 +249,7 @@ var MooDropMenu = new Class(
 								break;
 							case 37:
 								// left
+								event.stop();
 								if (this.options.menuCount == 0) {
 									this.prev();
 								} else if (this.options.menuCount > 0) {
@@ -258,6 +258,7 @@ var MooDropMenu = new Class(
 								break;
 							case 38:
 								// up
+								event.stop();
 								if (this.options.menuCount == 0) {
 									this.open();
 								} else if (this.options.menuCount > 0) {
@@ -271,6 +272,7 @@ var MooDropMenu = new Class(
 								break;
 							case 39:
 								// right
+								event.stop();
 								if (this.options.menuCount == 0) {
 									this.next();
 								} else if (this.options.menuCount > 0) {
@@ -279,6 +281,7 @@ var MooDropMenu = new Class(
 								break;
 							case 40:
 								// down
+								event.stop();
 								if (this.options.menuCount == 0) {
 									this.open();
 								} else if (this.options.menuCount > 0) {
